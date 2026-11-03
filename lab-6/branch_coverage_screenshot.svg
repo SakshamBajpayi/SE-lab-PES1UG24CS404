@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <rect width="900" height="420" rx="8" fill="#1e1e24"/>
+  <rect width="900" height="38" rx="8" fill="#2d2d34"/>
+  <circle cx="22" cy="19" r="7" fill="#ff5f56"/>
+  <circle cx="44" cy="19" r="7" fill="#ffbd2e"/>
+  <circle cx="66" cy="19" r="7" fill="#27c93f"/>
+  <text x="450" y="24" text-anchor="middle" fill="#c8c8d2" font-family="monospace" font-size="14" font-weight="bold">Terminal — Branch Coverage (lab-6)</text>
+  <g font-family="monospace" font-size="14" xml:space="preserve">
+    <text x="20" y="70" fill="#50dc78" font-weight="bold">saksham@ubuntu:~/SE-lab-PES1UG24CS404/lab-6$ coverage run --branch -m pytest BranchCoverageTest_40_ride_share_fare.py</text>
+    <text x="20" y="96" fill="#ebebf0" font-weight="bold">============================= test session starts ==============================</text>
+    <text x="20" y="120" fill="#ebebf0">platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0</text>
+    <text x="20" y="144" fill="#ebebf0">rootdir: /home/saksham/SE-lab-PES1UG24CS404/lab-6</text>
+    <text x="20" y="168" fill="#ebebf0" font-weight="bold">collected 9 items</text>
+    <text x="20" y="204" fill="#50dc78">BranchCoverageTest_40_ride_share_fare.py .........                       [100%]</text>
+    <text x="20" y="240" fill="#50dc78" font-weight="bold">============================== 9 passed in 0.04s ===============================</text>
+    <text x="20" y="274" fill="#50dc78" font-weight="bold">saksham@ubuntu:~/SE-lab-PES1UG24CS404/lab-6$ coverage report -m ride_share_fare.py</text>
+    <text x="20" y="300" fill="#64d2ff" font-weight="bold">Name                 Stmts   Miss Branch BrPart  Cover   Missing</text>
+    <text x="20" y="322" fill="#b4b4c3">----------------------------------------------------------------</text>
+    <text x="20" y="344" fill="#ebebf0">ride_share_fare.py      37      0     26      0   100%</text>
+    <text x="20" y="366" fill="#b4b4c3">----------------------------------------------------------------</text>
+    <text x="20" y="388" fill="#ebebf0" font-weight="bold">TOTAL                   37      0     26      0   100%</text>
+  </g>
+</svg>
